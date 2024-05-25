@@ -1,0 +1,15 @@
+.App-sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  .App-sidebar-left {
+    float: left;
+  }
+  
+  .App-sidebar-right {
+    float: right;
+  }
+  

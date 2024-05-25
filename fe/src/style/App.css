@@ -1,0 +1,22 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .App-body {
+    display: flex;
+    flex: 1;
+  }
+  
+  .App-sidebar {
+    flex: 0 0 200px;
+  }
+  
+  .App-main {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
