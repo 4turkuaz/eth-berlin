@@ -19,12 +19,14 @@ class AdGenerator:
         joined_items = ", ".join(items)
 
         suffix = "\n\n\nBased on the interests above, I will now let you know which option of the following I am most interested in."
-        suffix += "\n1. garden hose"
-        suffix += "\n2. basketball"
-        suffix += "\n3. swimming pool"
-        suffix += "\n4. macbook"
-        suffix += "\n5. beer"
-        suffix += "\n6. crypto swag"
+        suffix += "\n1. Basketball Shoes"
+        suffix += "\n2. Rolex"
+        suffix += "\n3. Sofa"
+        suffix += "\n4. Yacht"
+        suffix += "\n5. Brave Plugin"
+        suffix += "\n6. ETHBerlin Hackathon"
+        suffix += "\n7. Vacation in Venezuela"
+        suffix += "\n8. Sunglasses"
         suffix += "\nFrom the options 1-6, I'm most interested in number "
         prompt = prefix + joined_items + suffix
         print("prompt", prompt)
