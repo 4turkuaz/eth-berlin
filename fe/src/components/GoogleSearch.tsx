@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { CssBaseline, Box, Container} from '@mui/joy';
-import Sidebar from './Sidebar';
+import Sidebar from './sidebar';
 
 function GoogleSearch() {
 
