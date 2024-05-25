@@ -11,7 +11,16 @@ class AdGenerator:
         self.model = GPT2LMHeadModel.from_pretrained(self.model_name).to(self.device)
 
     def generate_ads(self, search_data, max_length=256, num_return_sequences=2):
-        inputs = self.tokenizer(search_data, return_tensors="pt", padding=True)
+        items = search_data.split("\n")
+        prefix = "I like things such as: "
+
+        joined_items = ", ".join(items)
+
+        suffix = "\nThe things I also like are: "
+        prompt = prefix + joined_items + suffix
+
+        
+        inputs = self.tokenizer(prompt, return_tensors="pt", padding=True)
         
         input_ids = inputs["input_ids"].to(self.device)
         attention_mask = inputs["attention_mask"].to(self.device)
@@ -23,7 +32,7 @@ class AdGenerator:
             num_return_sequences=num_return_sequences,
             no_repeat_ngram_size=2,
             do_sample=True,
-            top_k=50,
+            top_k=10,
             top_p=0.95,
             early_stopping=True,
         )
