@@ -1,17 +1,8 @@
-import React from "react";
-import "../style/Sidebar.css";
+import { Box } from "@mui/joy";
 
-interface SidebarProps {
-  position: "left" | "right";
-  ad?: string;
+
+export default function Sidebar() {
+    return (
+        <Box>Add</Box>
+    );
 }
-
-const Sidebar: React.FC<SidebarProps> = ({ position, ad }) => {
-  return (
-    <div className={`App-sidebar App-sidebar-${position}`}>
-      <p>{ad ? ad : "Ad space"}</p>
-    </div>
-  );
-};
-
-export default Sidebar;

@@ -1,0 +1,97 @@
+[
+    {
+        "topic": "sportswear",
+        "sample_company": "Sports Inc.",
+        "ad": "Upgrade your workout with the latest sportswear from Sports Inc. Get 50% off on your first purchase!"
+    },
+    {
+        "topic": "electronics",
+        "sample_company": "Tech World",
+        "ad": "Discover the newest gadgets at Tech World. Save up to 30% on all electronics this summer!"
+    },
+    {
+        "topic": "books",
+        "sample_company": "Book Haven",
+        "ad": "Dive into a world of stories with Book Haven. Enjoy buy 1 get 1 free on selected titles!"
+    },
+    {
+        "topic": "gaming",
+        "sample_company": "Game Zone",
+        "ad": "Level up your gaming experience with Game Zone. Get exclusive deals on consoles and accessories!"
+    },
+    {
+        "topic": "fitness",
+        "sample_company": "FitLife",
+        "ad": "Join FitLife today and get 1 month free! Your journey to a healthier life starts here."
+    },
+    {
+        "topic": "travel",
+        "sample_company": "Travel Co.",
+        "ad": "Explore the world with Travel Co. Book now and get 20% off your next adventure!"
+    },
+    {
+        "topic": "fashion",
+        "sample_company": "Style Hub",
+        "ad": "Stay trendy with the latest fashion from Style Hub. Shop now and save 40% on new arrivals!"
+    },
+    {
+        "topic": "food",
+        "sample_company": "Gourmet Delight",
+        "ad": "Satisfy your cravings with Gourmet Delight. Order now and get free delivery on your first order!"
+    },
+    {
+        "topic": "health",
+        "sample_company": "Health Plus",
+        "ad": "Stay healthy with supplements from Health Plus. Enjoy 15% off on all health products!"
+    },
+    {
+        "topic": "education",
+        "sample_company": "EduMaster",
+        "ad": "Enhance your skills with courses from EduMaster. Sign up today and get a free trial!"
+    },
+    {
+        "topic": "home_decor",
+        "sample_company": "HomeStyle",
+        "ad": "Transform your home with stylish decor from HomeStyle. Shop now and get up to 25% off!"
+    },
+    {
+        "topic": "automotive",
+        "sample_company": "AutoZone",
+        "ad": "Keep your car in top shape with AutoZone. Get discounts on services and accessories!"
+    },
+    {
+        "topic": "beauty",
+        "sample_company": "Beauty Bliss",
+        "ad": "Discover beauty products from Beauty Bliss. Enjoy 20% off your first purchase!"
+    },
+    {
+        "topic": "real_estate",
+        "sample_company": "Dream Homes",
+        "ad": "Find your dream home with Dream Homes. Contact us today for exclusive listings!"
+    },
+    {
+        "topic": "finance",
+        "sample_company": "Money Matters",
+        "ad": "Manage your finances with Money Matters. Sign up now for free financial advice!"
+    },
+    {
+        "topic": "pets",
+        "sample_company": "Pet Paradise",
+        "ad": "Pamper your pets with products from Pet Paradise. Get 10% off on all orders!"
+    },
+    {
+        "topic": "entertainment",
+        "sample_company": "Fun Times",
+        "ad": "Experience the best in entertainment with Fun Times. Subscribe now for special offers!"
+    },
+    {
+        "topic": "gardening",
+        "sample_company": "Garden Pro",
+        "ad": "Grow a beautiful garden with Garden Pro. Shop now and save 15% on gardening tools!"
+    },
+    {
+        "topic": "photography",
+        "sample_company": "Photo Magic",
+        "ad": "Capture moments with Photo Magic. Get discounts on cameras and accessories!"
+    }
+]
