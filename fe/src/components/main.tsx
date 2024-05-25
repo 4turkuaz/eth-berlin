@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../style/MainContent.css";
+import GoogleSearch from "./GoogleSearch";
+import Sidebar from "./Sidebar";
 
 interface MainContentProps {
   onGenerateAds: (ads: string[]) => void;
@@ -26,12 +28,7 @@ const MainContent: React.FC<MainContentProps> = ({ onGenerateAds }) => {
 
   return (
     <div className="App-main">
-      <textarea
-        value={searchData}
-        onChange={(e) => setSearchData(e.target.value)}
-        placeholder="Paste your search data here..."
-      ></textarea>
-      <button onClick={generateAds}>Generate Ads</button>
+     <GoogleSearch />
     </div>
   );
 };

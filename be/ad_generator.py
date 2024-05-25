@@ -1,14 +1,14 @@
 import torch
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
 class AdGenerator:
     def __init__(self):
-        self.model_name = "gpt2"
+        self.model_name = "meta-llama/Llama-2-7b-chat-hf"
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.tokenizer = GPT2Tokenizer.from_pretrained(self.model_name)
+        self.tokenizer  = AutoTokenizer.from_pretrained(self.model_name)
         self.tokenizer.pad_token = self.tokenizer.eos_token
-        self.model = GPT2LMHeadModel.from_pretrained(self.model_name).to(self.device)
+        self.model = AutoModelForCausalLM.from_pretrained(self.model_name).to(self.device)
 
     def generate_ads(self, search_data, max_length=256, num_return_sequences=2):
         items = search_data.split("\n")

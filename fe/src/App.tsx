@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './style/App.css';
 import Header from './components/header';
-import Sidebar from './components/sidebar';
-import MainContent from './components/main';
+import GoogleSearch from './components/GoogleSearch';
 
 function App() {
   const [ads, setAds] = useState<string[]>([]);
@@ -13,11 +12,10 @@ function App() {
 
   return (
     <div className="App">
+      
       <Header />
       <div className="App-body">
-        <Sidebar position="left" ad={ads[0]} />
-        <MainContent onGenerateAds={handleGenerateAds} />
-        <Sidebar position="right" ad={ads[1]} />
+        <GoogleSearch />
       </div>
     </div>
   );
