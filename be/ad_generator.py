@@ -14,7 +14,7 @@ class AdGenerator:
 
     def generate_ads(self, search_data: str, max_length=256, num_return_sequences=2):
         items = search_data.split("\n")
-        prefix = "I like things such as: "
+        prefix = "Here's my search history, last is the newest: "
 
         joined_items = ", ".join(items)
 
