@@ -10,7 +10,6 @@ ad_generator = AdGenerator()
 
 @app.route("/generateAds", methods=["POST"])
 def generate_ads():
-    return jsonify({"ads": ["3", "4"]})
     data = request.get_json()
     search_data = data["searchData"]
 
