@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../style/MainContent.css";
 import GoogleSearch from "./GoogleSearch";
-import Sidebar from "./Sidebar";
 
 interface MainContentProps {
   onGenerateAds: (ads: string[]) => void;

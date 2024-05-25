@@ -1,6 +1,6 @@
 import React from 'react';
 import { CssBaseline, Box, Container, Input, Button, Typography } from '@mui/joy';
-import Sidebar from './Sidebar';
+import Sidebar from './sidebar';
 
 function GoogleSearch() {
   return (
